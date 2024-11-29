@@ -6,11 +6,13 @@ export default function Main({ posts }) {
   return (
     <>
       <main className="main">
-        {posts.map((post, index) => (
-          <div key={index} className="main-div">
-            <Card post={post} />
-          </div>
-        ))}
+        {posts
+          .filter((post) => post.published)
+          .map((post, index) => (
+            <div key={index} className="main-div">
+              <Card post={post} />
+            </div>
+          ))}
       </main>
     </>
   );
