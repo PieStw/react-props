@@ -3,7 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./components/header";
-import Body from "./components/body";
+import Body from "./components/main";
 import Footer from "./components/footer";
 
 function App() {

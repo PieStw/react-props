@@ -1,13 +1,13 @@
 import React from "react";
 import Card from "./card";
-import "./body.css";
+import "./main.css";
 
-export default function Body() {
+export default function Main() {
   return (
     <>
-      <body className="body">
+      <main className="main">
         <Card />
-      </body>
+      </main>
     </>
   );
 }
